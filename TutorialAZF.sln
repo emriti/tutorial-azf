@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TutorialAZF", "TutorialAZF.csproj", "{1F0FCE35-42F6-4F45-997E-2EC53721489C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F0FCE35-42F6-4F45-997E-2EC53721489C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0FCE35-42F6-4F45-997E-2EC53721489C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0FCE35-42F6-4F45-997E-2EC53721489C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0FCE35-42F6-4F45-997E-2EC53721489C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {761281AE-162A-42CE-AF4C-68A30B579DA3}
+	EndGlobalSection
+EndGlobal
