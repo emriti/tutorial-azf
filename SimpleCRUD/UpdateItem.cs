@@ -12,7 +12,7 @@ namespace TutorialAZF.SimpleCRUD
 {
     public static class UpdateItem
     {
-        [FunctionName("UpdateItem")]
+        [FunctionName("TutorialAZF-UpdateItem")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "UpdateItem/{id}")] HttpRequestMessage req,
             [CosmosDB(

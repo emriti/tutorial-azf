@@ -14,7 +14,7 @@ namespace TutorialAZF.TutorialEvh
 {
     public static class InsertToDoSub3
     {
-        [FunctionName("InsertToDoSub3")]
+        [FunctionName("TutorialAZF-InsertToDoSub3")]
         public static async Task Run(
             [EventHubTrigger("insert-todo", Connection = "insert-todo-conn", ConsumerGroup = "B")] EventData[] events,
             [CosmosDB(

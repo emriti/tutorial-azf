@@ -17,7 +17,7 @@ namespace TutorialAZF.SimpleCRUD
         /// <param name="newData"></param>
         /// <param name="log"></param>
         /// <returns></returns>
-        [FunctionName("InsertItem")]
+        [FunctionName("TutorialAZF-InsertItem")]
         public static HttpResponseMessage Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequestMessage req,
             [CosmosDB(

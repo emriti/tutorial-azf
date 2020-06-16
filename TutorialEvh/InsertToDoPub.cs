@@ -11,7 +11,7 @@ namespace TutorialAZF.TutorialEvh
 {
     public static class InsertToDoPub
     {
-        [FunctionName("InsertToDoPub")]
+        [FunctionName("TutorialAZF-InsertToDoPub")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequest req,
             [EventHub("insert-todo", Connection = "insert-todo-conn")] IAsyncCollector<string> outputEvents,

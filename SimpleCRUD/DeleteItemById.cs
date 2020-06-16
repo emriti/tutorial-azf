@@ -19,7 +19,7 @@ namespace TutorialAZF.SimpleCRUD
         /// <param name="client"></param>
         /// <param name="log"></param>
         /// <returns></returns>
-        [FunctionName("DeleteItemById")]
+        [FunctionName("TutorialAZF-DeleteItemById")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "DeleteItemById/{id}")] HttpRequest req,
             string id,

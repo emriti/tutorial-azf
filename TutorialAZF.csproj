@@ -21,7 +21,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="TutorialEvg\" />
     <Folder Include="TutorialEvh\" />
     <Folder Include="SimpleCRUD\" />
   </ItemGroup>

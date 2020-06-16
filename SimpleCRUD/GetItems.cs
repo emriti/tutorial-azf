@@ -14,7 +14,7 @@ namespace TutorialAZF.SimpleCRUD
 {
     public static class GetItems
     {
-        [FunctionName("GetItems")]
+        [FunctionName("TutorialAZF-GetItems")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] HttpRequest req,
             [CosmosDB(
@@ -40,7 +40,7 @@ namespace TutorialAZF.SimpleCRUD
             //}
         }
 
-        [FunctionName("GetItemsLinq")]
+        [FunctionName("TutorialAZF-GetItemsLinq")]
         public static async Task<IActionResult> GetItemsLinq(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] HttpRequest req,
             ILogger log)
