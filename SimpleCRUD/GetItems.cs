@@ -51,7 +51,7 @@ namespace TutorialAZF.SimpleCRUD
             var db = client.GetDatabase("ToDoList");
             var container = db.GetContainer("Items");
 
-            var q = container.GetItemLinqQueryable<Items>();
+            var q = container.GetItemLinqQueryable<ToDoItem>();
             var iterator = q
                 .Select(p => p)
                 .OrderBy(p => p.Id)
